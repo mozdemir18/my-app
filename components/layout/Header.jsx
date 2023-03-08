@@ -58,7 +58,7 @@ const Header = (props) => {
   
 
     const handleClick = (path) => {
-      if (path === "/doctor-profile") {
+      if (path === "/profile") {
         router.push(path);
       }
     };
@@ -177,7 +177,7 @@ const Header = (props) => {
                 ) : (
                   <>
                     <li className="nav-item">
-                      <a className="nav-link header-login" onClick={() => (session?.user?.accessToken ? handleClick("/doctor-profile") : signIn())}>
+                      <a className="nav-link header-login" onClick={() => (session?.user?.accessToken ? handleClick("/profile") : signIn())}>
                         {session?.user?.accessToken ? 'Profile' : 'Login / Signup'}
                       </a>
                     </li>

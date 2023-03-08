@@ -31,26 +31,26 @@ const DoctorSidebar =()=> {
                     <Nav className="dashboard-menu">
 
                         <Nav.Item> 
-                             <Link href="/doctor-profile"> 
+                             <Link href="/profile"> 
                                 <a><i className="fas fa-columns"></i>
                                     <span>Dashboard</span></a>
                              </Link>
                          </Nav.Item>
                          
                          <Nav.Item> 
-                            <Link href="/doctor-profile/appointments"  activeClassName="active">
+                            <Link href="/profile/appointments"  activeClassName="active">
                              <a><i className="fas fa-calendar-check"></i>
                                     <span>Appointments</span> </a>
                             </Link>
                         </Nav.Item> 
                         <Nav.Item> 
-                            <Link href="/doctor-profile/education">
+                            <Link href="/profile/education">
                                    <a><i className="fas fa-school"></i>
                                     <span>Education</span></a>
                             </Link>
                         </Nav.Item> 
                         <Nav.Item> 
-                            <Link href="/doctor-profile/experience">
+                            <Link href="/profile/experience">
                                    <a><i className="fas fa-school"></i>
                                     <span>Experience</span></a>
                             </Link>
@@ -59,13 +59,13 @@ const DoctorSidebar =()=> {
                             /*
                         
                         <Nav.Item> 
-                            <Link href="/doctor-profile/areas">
+                            <Link href="/profile/areas">
                                    <a><i className="fas fa-check-double"></i>
                                     <span>Areas of interest</span></a>
                             </Link>
                         </Nav.Item>
                         <Nav.Item> 
-                            <Link href="/doctor-profile/settings">
+                            <Link href="/profile/settings">
                                    <a><i className="fas fa-user-cog"></i>
                                     <span>Profile Settings</span></a>
                             </Link>
